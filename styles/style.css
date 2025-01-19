@@ -55,6 +55,7 @@
   .camera0{
     background-image: url(../images/Circle\ design.svg);
     background-repeat:no-repeat;
+    background-size: contain;
     
   }
 
@@ -76,6 +77,9 @@
   }
   .img-size{
     size: 30px;
+  }
+  .preebook-now{
+    gap: 10px;
   }
   /* line-3 */
   .images-size1{
@@ -221,7 +225,7 @@
   height: 200px;
 }
 /* line-7 */
-.baba{
+.rights{
   text-align: center;
   background-color: black;
   color: aliceblue;
@@ -231,6 +235,12 @@
 .red{
   background-color: aliceblue;
 }
+.box{
+  margin-left: 600px;
+ width: 1400px;
+ margin-bottom: 100px;
+}
+
 
 
 
@@ -242,15 +252,18 @@
       .camera2{
         padding: 0px;
       }
+      .navber{
+        max-width: 300px;
+      }
 
   
       .camera{
       flex-direction: column;
-      padding: 0px;
+      
       }
       .display-flex{
         flex-direction: column;
-        padding: 0px;
+        
       }
       .font-size{
         font-size: 30px;
@@ -266,7 +279,7 @@
         height: 50px;
         font-size: 15px;
         border-radius: 30px;
-        padding: 0px;
+        
      }
      .camera0{
     
@@ -275,11 +288,11 @@
       .images-size1{
         flex-direction: column;
         grid-template-rows: repeat(3, 1fr);
-        padding:400px;
+        
      }
      .color{
-      margin-top: -160px;
-      padding:400px;
+      margin-top: 20px;
+     
      } 
      .banner{
       display:grid;
@@ -296,7 +309,7 @@
     width: 340px;
     height: 100px;
   }
-  .baba{
+  .rights{
     background-color: black;
     color: aliceblue;
     text-align: center;
@@ -305,5 +318,8 @@
   }
   .red{
     background-color: aliceblue;
+  }
+  .box{
+    width: 300px;
   }
 }
